@@ -6,7 +6,7 @@ ENV CADDYFILE /etc/Caddyfile
 
 
 ## Download and install Caddy
-ENV CADDY_VER 0.9.4
+ENV CADDY_VER 0.9.5
 
 RUN apk add --no-cache --virtual setup-dependencies \
 		ca-certificates \
